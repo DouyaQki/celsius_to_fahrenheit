@@ -21,9 +21,6 @@ body {
   background-color: #666699;
   color: white;
   height: 1.875rem;
-}
-
-.calculator {
   font-size: 1.125rem;
   width: 50%;
   cursor: pointer;
@@ -32,4 +29,10 @@ body {
 #grad {
   text-align: center;
   width: 48%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
